@@ -27,6 +27,4 @@ def captchakey(key,siteKey):
             cap_key = json.loads(r.text)['solution']['gRecaptchaResponse']
             print(f"{cy}Captcha Solved:({cap_key[-10:]})")
             return cap_key
-if __name__ == "__main__":
-    key = captchakey('','6LfCVLAUAAAAALFwwRnnCJ12DalriUGbj8FW_J39')
-    print(key)
+
