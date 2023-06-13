@@ -5,8 +5,8 @@ re="\033[1;31m"
 gr="\033[1;32m"
 cy="\033[1;36m"
 
-capmonsterCaptchaKey = "efc0ca32f4ade040d9780586d60742f3"
-password = "(Pakistan99)"
+capmonsterCaptchaKey = "" # Input Your Capmonster captcha key here.
+password = "(Alpha@123)" # You can customize passoword.
 
 def generateDOB():
     year = str(random.randint(1985,2001))
