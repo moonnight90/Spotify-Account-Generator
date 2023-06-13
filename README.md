@@ -35,6 +35,7 @@ Before running the script, you may need to modify certain variables to fit your 
 
 - `capmonsterCaptchaKey`: Replace this variable with your Capmonster CAPTCHA API key.
 - `password`: Replace this variable with the desired password for the generated accounts.
+- `proxies`: Add proxies in "proxies.txt" file. Format must be "USERNAME:PASSWORD@IP:PORT"
 
 ## Important Note
 
